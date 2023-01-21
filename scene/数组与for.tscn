@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bek46wybyyymi"]
+
+[ext_resource type="Script" path="res://sprite/数组与for.gd" id="1_p1qti"]
+
+[node name="array" type="Node2D"]
+script = ExtResource("1_p1qti")

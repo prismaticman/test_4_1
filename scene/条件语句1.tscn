@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnm8vu2w0xt18"]
+
+[ext_resource type="Script" path="res://sprite/条件语句1.gd" id="1_bitrs"]
+
+[node name="if_else" type="Node2D"]
+script = ExtResource("1_bitrs")

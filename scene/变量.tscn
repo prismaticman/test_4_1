@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://byuikllyriopy"]
+
+[ext_resource type="Script" path="res://sprite/变量.gd" id="1_leqhf"]
+[ext_resource type="Texture2D" uid="uid://bg4u12505ucau" path="res://icon.svg" id="2_phlne"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ciebp"]
+
+[node name="变量" type="Node2D"]
+script = ExtResource("1_leqhf")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(180, 198)
+texture = ExtResource("2_phlne")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 175.0
+offset_top = 60.0
+offset_right = 215.0
+offset_bottom = 83.0
+label_settings = SubResource("LabelSettings_ciebp")
