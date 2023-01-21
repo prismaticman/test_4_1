@@ -1,7 +1,5 @@
 extends Node2D
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	print(arr_and_for.a)
 	pass # Replace with function body.
